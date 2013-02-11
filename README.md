@@ -1,27 +1,8 @@
 # 3rd Party Apple Publisher Setup
 
-### Table of Contents
-1.  [Introduction](#introduction)
-2.  Add The 3rd Party Developer
-    - Definition of Roles
-    - Add the Team Member
-3.  Prepare the Local Computer
-    - Install xcode from apple
-    - Create CSR File
-4.  Prepare the Developer Account
-    - Create App ID - (Non-Admin Team Member)
-    - Create push notification certificate - (Non-Admin Team Member)
-    - Create Distribution Certificate
-    - Create Provisioning Profile
-5.  Prepare iTunes Connect
-    - Create new application
-6.  Publish The Application
-    -  Import the .xarchive
-
 # Introduction
 
 This document outlines the process of publishing an application to the Apple App Store.  
-
 
 # Add The 3rd Party Developer
 
