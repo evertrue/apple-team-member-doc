@@ -26,9 +26,17 @@ This document outlines the process of publishing an application to the Apple App
 # Add The 3rd Party Developer
 
 ## Definition of Roles
-(add description of what it means to be agent/admin/member)
 
-## Add the Team Member
+#### Team Agent
+A team agent is legally responsible for the team and acts as the primary contact with Apple.  The team agent has access to iTunes Connect to submit applications to the app store.
+
+#### Team Admin
+A team admin can create and approve certificates, provisioning profiles and add devices.  A team admin does not automatically have access to iTunes Connect, and therefore cannot submit applications to the app store.
+
+#### Team Member
+A team member cannot create certificates or add devices.   Certificates must be approved by a team administrator.
+
+## Add The Developer To The Team
 Login to the iOS Dev Center (developer.apple.com) and direct to the “Member Center” in the upper navigation bar. Once in the Member Center, click on the “People” tab in the upper left corner. Click “Invite a Person to Your Team”. Fill out the invitation to add the team member.  
 
 (TODO: Add image, better description of fields)
