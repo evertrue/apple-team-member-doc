@@ -1,6 +1,5 @@
 # 3rd Party Apple Publisher Setup
 
-
 ### Table of Contents
 1.  Introduction
 2.  Add The 3rd Party Developer
@@ -21,8 +20,7 @@
 
 # Introduction
 
-This document outlines the process of publishing an application to the iTunes App Store.  The 'agent' on the account sets up an app for publication to the App Store.  
-
+This document outlines the process of publishing an application to the Apple App Store.  
 
 
 # Add The 3rd Party Developer
