@@ -76,16 +76,34 @@ Click 'continue' and save the CSR file somewhere handy.
 
 # Prepare the Developer Account
 
-If added team member as ADMIN, skip next 2 sections, go to [Create Distribution Certificate](#create-distribution-certificate)
+Navigate to the iOS Provisioning Portal by clicking the link on the right hand side:
 
-### Create App ID - (Non-Admin Team Member)
-The developer will provide the bundle id to use. Create the app id in the ‘App Ids’ section of the provisioning portal:
+![](/provportal_1.png "Portal")
 
-When creating the app id, use a description to clearly denote what the app identifier is being used for. The bundle seed should be set to ‘Team ID’.
+Here is where you will setup the developer account.
 
-(TODO: more detail - with screenshot)
+If the 3rd party developer was added as an administrator, skip next 2 sections, go to [Create Distribution Certificate](#create-distribution-certificate)
 
-### Create push notification certificate - (Non-Admin Team Member)
+### Create App ID
+
+**(DEVELOPER ADDED AS NON-ADMIN)**
+
+Navigate to the App Ids section by clicking the link in the left side:
+
+![](/appids_1.png "AppIds")
+
+Click the 'New App Id' button.
+
+![](/appids_2.png "AppIds")
+
+For the description, enter something that clearly indentifies this application.   You will choose this from a list later, so don't make it to generic.  Leave the Seed Id as 'Use Team Id'.  **The bundle id should be provided to you by the developer**.
+
+![](/appids_3.png "AppIds")
+
+### Create push notification certificate
+
+**(DEVELOPER ADDED AS NON-ADMIN)**
+
 After creating the app id, scroll down the page to the section with the newly created app id, and click ‘configure’.
 
 Then, click the checkbox next to ‘Enable for Apple Push Notification service’, and ‘Configure’. Follow the instructions for creating a push notification certificate. This involves uploading a certificate signing request file, which was created above. Once the push certificate is created, download it and double click it to load it into the keychain. Right click on the push certificate and choose ‘export’:  
