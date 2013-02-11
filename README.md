@@ -31,10 +31,10 @@ This document outlines the process of publishing an application to the Apple App
 A team agent is legally responsible for the team and acts as the primary contact with Apple.  The team agent has access to iTunes Connect to submit applications to the app store.
 
 #### Team Admin
-A team admin can create and approve certificates, provisioning profiles and add devices.  A team admin does not automatically have access to iTunes Connect, and therefore cannot submit applications to the app store.
+A team admin can create and approve certificates, provisioning profiles and add devices.  A team admin cannot submit applications to the app store.
 
 #### Team Member
-A team member cannot create certificates or add devices.   Certificates must be approved by a team administrator.
+A team member cannot create certificates or add devices.   Certificates must be approved by a team administrator as well as the app id and push notification certificate.
 
 ## Add The Developer To The Team
 Navigate to the iOS Dev Center (developer.apple.com) and direct to the “Member Center” in the upper navigation bar. 
@@ -45,11 +45,15 @@ Login with your Apple ID.   Once in the Member Center, click on the “People”
 
 ![](/invitemember_2.png "Member Center")
 
-Click “Invite a Person to Your Team”. Fill out the invitation to add the team member.  
+Click "Invitations" in the side bar, and then click the "Invite Person" button. 
 
-(TODO: Add image, better description of fields)
+![](/invitemember_3.png "Member Center")
 
-(TODO: Add description of the work required should the member only be given 'member' access vs. 'admin' access.  To be discussed are topics like approval of developer certificates, adding test devices, creation of app ids and push notification certificates.)
+Fill out the invitation to add the team member.  
+
+![](/invitemember_4.png "Member Center")
+
+The level of access you give to the developer determines the amount of work that they can do without needing approval from the team agent (or other team admin).  See above section on roles, or further information by clicking the "iOS Developer Program Roles Overview" link.
 
 # Prepare the Local Computer
 ### Install xcode from apple
