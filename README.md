@@ -37,7 +37,15 @@ A team admin can create and approve certificates, provisioning profiles and add 
 A team member cannot create certificates or add devices.   Certificates must be approved by a team administrator.
 
 ## Add The Developer To The Team
-Login to the iOS Dev Center (developer.apple.com) and direct to the “Member Center” in the upper navigation bar. Once in the Member Center, click on the “People” tab in the upper left corner. Click “Invite a Person to Your Team”. Fill out the invitation to add the team member.  
+Navigate to the iOS Dev Center (developer.apple.com) and direct to the “Member Center” in the upper navigation bar. 
+
+![](/invitemember_1.png "Member Center")
+
+Login with your Apple ID.   Once in the Member Center, click on the “People” tab in the upper left corner. 
+
+![](/invitemember_2.png "Member Center")
+
+Click “Invite a Person to Your Team”. Fill out the invitation to add the team member.  
 
 (TODO: Add image, better description of fields)
 
