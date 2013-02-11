@@ -101,19 +101,19 @@
 
 <p>Navigate to the iOS Dev Center (developer.apple.com) and direct to the “Member Center” in the upper navigation bar. </p>
 
-<p><img src="images/invitemember_1.png" alt="" title="Member Center"></p>
+<p><img src="pageimages/invitemember_1.png" alt="" title="Member Center"></p>
 
 <p>Login with your Apple ID.   Once in the Member Center, click on the “People” tab in the upper left corner. </p>
 
-<p><img src="images/invitemember_2.png" alt="" title="Member Center"></p>
+<p><img src="pageimages/invitemember_2.png" alt="" title="Member Center"></p>
 
 <p>Click "Invitations" in the side bar, and then click the "Invite Person" button. </p>
 
-<p><img src="images/invitemember_3.png" alt="" title="Member Center"></p>
+<p><img src="pageimages/invitemember_3.png" alt="" title="Member Center"></p>
 
 <p>Fill out the invitation to add the team member.  </p>
 
-<p><img src="images/invitemember_4.png" alt="" title="Member Center"></p>
+<p><img src="pageimages/invitemember_4.png" alt="" title="Member Center"></p>
 
 <p>The level of access you give to the developer determines the amount of work that they can do without needing approval from the team agent (or other team admin).  See above section on roles, or further information by clicking the "iOS Developer Program Roles Overview" link.</p>
 
@@ -129,11 +129,11 @@
 
 <p>From the menu, click Keychain Access-&gt;Certificate Assistant-&gt;Request a Certificate from a Certificate Authority...</p>
 
-<p><img src="images/csr_1.png" alt="" title="CSR"></p>
+<p><img src="pageimages/csr_1.png" alt="" title="CSR"></p>
 
 <p>Inside the Certificate Assistant, enter your email address, your name, keep 'CA Email Address' blank.  Also, choose that request be 'Saved to Disk'.</p>
 
-<p><img src="images/csr_2.png" alt="" title="CSR"></p>
+<p><img src="pageimages/csr_2.png" alt="" title="CSR"></p>
 
 <p>Click 'continue' and save the CSR file somewhere handy.</p>
 
@@ -141,7 +141,7 @@
 
 <p>Navigate to the iOS Provisioning Portal by clicking the link on the right hand side:</p>
 
-<p><img src="images/provportal_1.png" alt="" title="Portal"></p>
+<p><img src="pageimages/provportal_1.png" alt="" title="Portal"></p>
 
 <p>Here is where you will setup the developer account.</p>
 
@@ -153,15 +153,15 @@
 
 <p>Navigate to the App Ids section by clicking the link in the left side:</p>
 
-<p><img src="images/appids_1.png" alt="" title="AppIds"></p>
+<p><img src="pageimages/appids_1.png" alt="" title="AppIds"></p>
 
 <p>Click the 'New App Id' button.</p>
 
-<p><img src="images/appids_2.png" alt="" title="AppIds"></p>
+<p><img src="pageimages/appids_2.png" alt="" title="AppIds"></p>
 
 <p>For the description, enter something that clearly indentifies this application.   You will choose this from a list later, so don't make it to generic.  Leave the Seed Id as 'Use Team Id'.  <strong>The bundle id should be provided to you by the developer</strong>.</p>
 
-<p><img src="images/appids_3.png" alt="" title="AppIds"></p>
+<p><img src="pageimages/appids_3.png" alt="" title="AppIds"></p>
 
 <h3>Create push notification certificate</h3>
 
@@ -169,17 +169,17 @@
 
 <p>After creating the app id, scroll down the page to the section with the newly created app id, and click ‘configure’.</p>
 
-<p><img src="images/appids_4.png" alt="" title="AppIds"></p>
+<p><img src="pageimages/appids_4.png" alt="" title="AppIds"></p>
 
 <p>Then, click the checkbox next to ‘Enable for Apple Push Notification service’, and click the ‘Configure’ button next to 'Production Push SSL Certificate'. </p>
 
-<p><img src="images/appids_5.png" alt="" title="AppIds"></p>
+<p><img src="pageimages/appids_5.png" alt="" title="AppIds"></p>
 
 <p>Follow the instructions for creating a push notification certificate. This involves uploading a certificate signing request file, which was created above. Once the push certificate is created, download it and double click it to load it into the keychain. Keychain Access should automatically open.</p>
 
 <p>With the 'iOS Push Services' certificate hilighted in Keychain Access. From the 'File' menu, choose 'Export Items'.</p>
 
-<p><img src="images/appids_6.png" alt="" title="AppIds"></p>
+<p><img src="pageimages/appids_6.png" alt="" title="AppIds"></p>
 
 <p>Make sure to export it as a .p12 file. Send this file to your developer.</p>
 
@@ -189,11 +189,11 @@
 
 <p>Navigate to the Certificates section by clicking the link in the left side.</p>
 
-<p><img src="images/cert_1.png" alt="" title="Certs"></p>
+<p><img src="pageimages/cert_1.png" alt="" title="Certs"></p>
 
 <p>Click the 'Distribution' tab, and then click the 'Request Certificate' button.</p>
 
-<p><img src="images/cert_2.png" alt="" title="Certs"></p>
+<p><img src="pageimages/cert_2.png" alt="" title="Certs"></p>
 
 <p>It will ask you for a CSR file, you can use the same one you created earlier.  After it is created, it will be 'Pending' for a second.  Refresh the page until it gives you a 'Download' button.  Click to download the certificate, and double-click it to load into your keychain.</p>
 
@@ -201,17 +201,17 @@
 
 <p>Back in the provisioning portal, navigate to the Provisioning section by clicking the link in the left side.</p>
 
-<p><img src="images/prov_1.png" alt="" title="Prov"></p>
+<p><img src="pageimages/prov_1.png" alt="" title="Prov"></p>
 
 <p>Click the 'Distribution' tab, and then click the 'New Profile' button.</p>
 
-<p><img src="images/prov_2.png" alt="" title="Prov"></p>
+<p><img src="pageimages/prov_2.png" alt="" title="Prov"></p>
 
 <p>Choose ‘App Store’ as the type. Give the profile a name. Choose the distribution certificate you created above.  (There should be only one) Under ‘App ID’, choose the application id that was created above (or provided by your developer).</p>
 
 <p>It may take a second for the profile to be created, refresh the page until it gives you a download button.  Download the profile and double click it to load it into the XCode Organizer.  You will know the process worked if you have a green checkmark in the status next to the profile.</p>
 
-<p><img src="images/prov_3.png" alt="" title="Prov"></p>
+<p><img src="pageimages/prov_3.png" alt="" title="Prov"></p>
 
 <h1>Prepare iTunes Connect</h1>
 
@@ -229,7 +229,7 @@
 
 <p>Choose the .xarchive and click ‘Distribute’. </p>
 
-<p><img src="images/xcode_1.png" alt="" title="xcode"></p>
+<p><img src="pageimages/xcode_1.png" alt="" title="xcode"></p>
 
 <p>Select the ‘Submit to App Store’ option. Login using your agent credentials. Choose the distribution provisioning profile that was created above, to re-sign the xarchive for distribution.</p>
 
