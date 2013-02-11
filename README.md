@@ -86,7 +86,7 @@ If the 3rd party developer was added as an administrator, skip next 2 sections, 
 
 ### Create App ID
 
-**(DEVELOPER ADDED AS NON-ADMIN)**
+**(ONLY NEEDED DEVELOPER ADDED AS NON-ADMIN)**
 
 Navigate to the App Ids section by clicking the link in the left side:
 
@@ -102,15 +102,23 @@ For the description, enter something that clearly indentifies this application. 
 
 ### Create push notification certificate
 
-**(DEVELOPER ADDED AS NON-ADMIN)**
+**(ONLY NEEDED DEVELOPER ADDED AS NON-ADMIN)**
 
 After creating the app id, scroll down the page to the section with the newly created app id, and click ‘configure’.
 
-Then, click the checkbox next to ‘Enable for Apple Push Notification service’, and ‘Configure’. Follow the instructions for creating a push notification certificate. This involves uploading a certificate signing request file, which was created above. Once the push certificate is created, download it and double click it to load it into the keychain. Right click on the push certificate and choose ‘export’:  
+![](/images/appids_4.png "AppIds")
 
-(TODO:  more detail & screenshot)
+Then, click the checkbox next to ‘Enable for Apple Push Notification service’, and click the ‘Configure’ button next to 'Production Push SSL Certificate'. 
 
-This is save a .p12 file. Send this file to your developer.
+![](/images/appids_5.png "AppIds")
+
+Follow the instructions for creating a push notification certificate. This involves uploading a certificate signing request file, which was created above. Once the push certificate is created, download it and double click it to load it into the keychain. Keychain Access should automatically open.
+
+With the 'iOS Push Services' certificate hilighted in Keychain Access. From the 'File' menu, choose 'Export Items'.
+
+![](/images/appids_6.png "AppIds")
+
+Make sure to export it as a .p12 file. Send this file to your developer.
 
 ### Create Distribution Certificate
 
