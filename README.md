@@ -124,29 +124,40 @@ Make sure to export it as a .p12 file. Send this file to your developer.
 
 In order to submit an application, a distribution certificate needs to be created.  This certificate needs to be created by the person doing the submission to the app store or the signing won't work correctly.  The team agent is the only team member with access to iTunes Connect, so the team agent needs to be the one that creates the distribution certificate.
 
-(TODO:  better description of creating distribution certificate, including screenshot)
+Navigate to the Certificates section by clicking the link in the left side.
 
-In the developer center, on the right hand side, click the ‘iOS Provisioning Portal’.
-From the provisioning portal, under the Certificates tab, click the ‘Request Certificate’ button.
-Follow the stated directions, and upload the CSR from the previous section.
+![](/images/cert_1.png "Certs")
+
+Click the 'Distribution' tab, and then click the 'Request Certificate' button.
+
+![](/images/cert_2.png "Certs")
+
+It will ask you for a CSR file, you can use the same one you created earlier.  After it is created, it will be 'Pending' for a second.  Refresh the page until it gives you a 'Download' button.  Click to download the certificate, and double-click it to load into your keychain.
 
 
 ### Create Provisioning Profile
-Under the Provisioning tab, create a distribution profile. Click ‘New Profile’. Choose ‘App Store’ as the type. Give the profile a name. Under ‘App ID’, choose the application id that was created above (or provided by your developer)
 
-Download the profile and double click it to load it into XCode.
+Back in the provisioning portal, navigate to the Provisioning section by clicking the link in the left side.
 
-(TODO:  I don't like the order here, since Admin team members can do this step, but the distribution certificate needs to have already been created, by the Agent)
+![](/images/prov_1.png "Prov")
 
+Click the 'Distribution' tab, and then click the 'New Profile' button.
+
+![](/images/prov_2.png "Prov")
+
+Choose ‘App Store’ as the type. Give the profile a name. Choose the distribution certificate you created above.  (There should be only one) Under ‘App ID’, choose the application id that was created above (or provided by your developer).
+
+It may take a second for the profile to be created, refresh the page until it gives you a download button.  Download the profile and double click it to load it into the XCode Organizer.  You will know the process worked if you have a green checkmark in the status next to the profile.
+
+![](/images/prov_3.png "Prov")
 
 # Prepare iTunes Connect
 
 ### Create new application
 
-Log in to iTunes Connect (itunesconnect.apple.com), click ‘Add New App’ and use the above provided information to fill out everything required. After finishing creation, click ‘Ready to Upload’
+Log in to iTunes Connect (itunesconnect.apple.com).  The developer will provide you with the information you need to enter, as shown in the following video.
 
-(show video)
-
+(TODO: embed video)
 
 # Publish The Application
 
@@ -154,5 +165,10 @@ Log in to iTunes Connect (itunesconnect.apple.com), click ‘Add New App’ and 
 
 After your application is built, the developer will send an .xarchive file.  Double click the .xarchive file to load it into the XCode organizer.
 
-Choose the .xarchive and click ‘distribute’. Select the ‘Submit to App Store’ option. Login using your agent credentials. Choose the distribution provisioning profile that was created above, to re-sign the xarchive for distribution.
-If there were no errors during upload, the application should be flipped to ‘waiting for review’.
+Choose the .xarchive and click ‘Distribute’. 
+
+![](/images/xcode_1.png "xcode")
+
+Select the ‘Submit to App Store’ option. Login using your agent credentials. Choose the distribution provisioning profile that was created above, to re-sign the xarchive for distribution.
+
+If there were no errors during upload, the application should be flipped to ‘waiting for review’ in iTunes Connect.
