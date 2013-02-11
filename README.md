@@ -61,7 +61,18 @@ Login to the iOS Dev Center (developer.apple.com), and download the latest versi
 
 ### Create CSR file
 
-(TODO: put directions for creating CSR in keychain access)
+Launch the application 'Keychain Access' in /Applications/Utilities
+
+From the menu, click Keychain Access->Certificate Assistant->Request a Certificate from a Certificate Authority...
+
+![](/csr_1.png "CSR")
+
+Inside the Certificate Assistant, enter your email address, your name, keep 'CA Email Address' blank.  Also, choose that request be 'Saved to Disk'.
+
+![](/csr_2.png "CSR")
+
+Click 'continue' and save the CSR file somewhere handy.
+
 
 # Prepare the Developer Account
 
