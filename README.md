@@ -39,19 +39,19 @@ A team member cannot create certificates or add devices.   Certificates must be 
 ## Add The Developer To The Team
 Navigate to the iOS Dev Center (developer.apple.com) and direct to the “Member Center” in the upper navigation bar. 
 
-![](/invitemember_1.png "Member Center")
+![](/images/invitemember_1.png "Member Center")
 
 Login with your Apple ID.   Once in the Member Center, click on the “People” tab in the upper left corner. 
 
-![](/invitemember_2.png "Member Center")
+![](/images/invitemember_2.png "Member Center")
 
 Click "Invitations" in the side bar, and then click the "Invite Person" button. 
 
-![](/invitemember_3.png "Member Center")
+![](/images/invitemember_3.png "Member Center")
 
 Fill out the invitation to add the team member.  
 
-![](/invitemember_4.png "Member Center")
+![](/images/invitemember_4.png "Member Center")
 
 The level of access you give to the developer determines the amount of work that they can do without needing approval from the team agent (or other team admin).  See above section on roles, or further information by clicking the "iOS Developer Program Roles Overview" link.
 
@@ -65,11 +65,11 @@ Launch the application 'Keychain Access' in /Applications/Utilities
 
 From the menu, click Keychain Access->Certificate Assistant->Request a Certificate from a Certificate Authority...
 
-![](/csr_1.png "CSR")
+![](/images/csr_1.png "CSR")
 
 Inside the Certificate Assistant, enter your email address, your name, keep 'CA Email Address' blank.  Also, choose that request be 'Saved to Disk'.
 
-![](/csr_2.png "CSR")
+![](/images/csr_2.png "CSR")
 
 Click 'continue' and save the CSR file somewhere handy.
 
@@ -78,7 +78,7 @@ Click 'continue' and save the CSR file somewhere handy.
 
 Navigate to the iOS Provisioning Portal by clicking the link on the right hand side:
 
-![](/provportal_1.png "Portal")
+![](/images/provportal_1.png "Portal")
 
 Here is where you will setup the developer account.
 
@@ -90,15 +90,15 @@ If the 3rd party developer was added as an administrator, skip next 2 sections, 
 
 Navigate to the App Ids section by clicking the link in the left side:
 
-![](/appids_1.png "AppIds")
+![](/images/appids_1.png "AppIds")
 
 Click the 'New App Id' button.
 
-![](/appids_2.png "AppIds")
+![](/images/appids_2.png "AppIds")
 
 For the description, enter something that clearly indentifies this application.   You will choose this from a list later, so don't make it to generic.  Leave the Seed Id as 'Use Team Id'.  **The bundle id should be provided to you by the developer**.
 
-![](/appids_3.png "AppIds")
+![](/images/appids_3.png "AppIds")
 
 ### Create push notification certificate
 
