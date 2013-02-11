@@ -1,7 +1,7 @@
 # 3rd Party Apple Publisher Setup
 
 ### Table of Contents
-1.  Introduction
+1.  [Introduction](#introduction)
 2.  Add The 3rd Party Developer
     - Definition of Roles
     - Add the Team Member
@@ -76,7 +76,7 @@ Click 'continue' and save the CSR file somewhere handy.
 
 # Prepare the Developer Account
 
-(If added team member as ADMIN, skip next 2 sections, go to 'create certificate')]
+If added team member as ADMIN, skip next 2 sections, go to [Create Distribution Certificate](#create-distribution-certificate)
 
 ### Create App ID - (Non-Admin Team Member)
 The developer will provide the bundle id to use. Create the app id in the ‘App Ids’ section of the provisioning portal:
