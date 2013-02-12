@@ -1,6 +1,22 @@
-* auto-gen TOC:
-{:toc}
+##Table of Contents
 
+1. [Introduction](#introduction)
+2. [Add The 3rd Party Developer](#add-the-3rd-party-developer)
+  - [Definition of Roles](#definition-of-roles)
+	- [Add The Developer To The Team](#add-the-developer-to-the-team)
+3. [Prepare the Local Computer](#prepare-the-local-computer)
+	- [Install xcode from apple](#install-xcode-from-apple)
+	- [Create CSR file](#create-csr-file)
+4. [Prepare the Developer Account](#prepare-the-developer-account)
+	- [Create App ID](#create-app-id)
+	- [Create push notification certificate](#create-push-notification-certificate)
+	- [Create Distribution Certificate](#create-distribution-certificate)
+	- [Create Provisioning Profile](#create-provisioning-profile)
+5. [Prepare iTunes Connect](#prepare-itunes-connect)
+	- [Create new application](#create-new-application)
+6. [Publish The Application](#publish-the-application)
+	- [Import the .xarchive](#import-the-xarchive)
+    
 # Introduction
 
 This document outlines the process of publishing an application to the Apple App Store.  
