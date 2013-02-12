@@ -39,7 +39,7 @@ A team member cannot create certificates or add devices.   Certificates must be 
 ## Add The Developer To The Team
 Navigate to the iOS Dev Center (developer.apple.com) and direct to the “Member Center” in the upper navigation bar. 
 
-![](../blob/master/pageimages/invitemember_1.png?raw=true)
+![](pageimages/invitemember_1.png?raw=true)
 
 Login with your Apple ID.   Once in the Member Center, click on the “People” tab in the upper left corner. 
 
