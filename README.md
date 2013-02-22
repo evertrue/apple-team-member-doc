@@ -155,7 +155,7 @@ It may take a second for the profile to be created, refresh the page until it gi
 
 Log in to iTunes Connect (itunesconnect.apple.com).  The developer will provide you with the information you need to enter, as shown in the following video.
 
-![iTunes Connect Setup Video](http://youtu.be/M1TRHgCnA7E)
+![:youtube 600x400](M1TRHgCnA7E)
 
 # Publish The Application
 
