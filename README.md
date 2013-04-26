@@ -21,7 +21,7 @@
 
 This document outlines the process of publishing an application to the Apple App Store.  
 
-# <div name="add-the-3rd-party-developer"></div>Add The 3rd Party Developer
+# <a name="add-the-3rd-party-developer"></a>Add The 3rd Party Developer
 
 ## Definition of Roles
 
