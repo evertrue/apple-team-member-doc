@@ -75,15 +75,14 @@
 <li><a href="#import-the-xarchive">Import the .xarchive</a></li>
 </ul>
 </li>
-</ol>
-<a name="introduction"></a><h1>Introduction</h1>
+</ol><h1>Introduction</h1>
 
 <p>This document outlines the process of publishing an application to the Apple App Store.  </p>
 
 <h1>
-<a name="add-the-3rd-party-developer" class="anchor" href="#add-the-3rd-party-developer"></a>Add The 3rd Party Developer</h1>
+<div name="add-the-3rd-party-developer"></div>Add The 3rd Party Developer</h1>
 
-<a name="definition-of-roles" class="anchor" href="#definition-of-roles"></a><h2>Definition of Roles</h2>
+<h2>Definition of Roles</h2>
 
 <h4>Team Agent</h4>
 
@@ -97,7 +96,7 @@
 
 <p>A team member cannot create certificates or add devices.   Certificates must be approved by a team administrator as well as the app id and push notification certificate.</p>
 
-<a name="add-developer-to-the-team" class="anchor" href="#add-developer-to-the-team"></a><h2>Add The Developer To The Team</h2>
+<h2>Add The Developer To The Team</h2>
 
 <p>Navigate to the iOS Dev Center (developer.apple.com) and direct to the “Member Center” in the upper navigation bar. </p>
 
@@ -117,13 +116,13 @@
 
 <p>The level of access you give to the developer determines the amount of work that they can do without needing approval from the team agent (or other team admin).  See above section on roles, or further information by clicking the "iOS Developer Program Roles Overview" link.</p>
 
-<a name="prepare-the-local-computer" class="anchor" href="#prepare-the-local-computer"></a><h1>Prepare the Local Computer</h1>
+<h1>Prepare the Local Computer</h1>
 
-<a name="install-xcode-from-apple" class="anchor" href="#install-xcode-from-apple"></a><h3>Install xcode from apple</h3>
+<h3>Install xcode from apple</h3>
 
 <p>Login to the iOS Dev Center (developer.apple.com), and download the latest version of XCode. (or download from the Mac App Store)</p>
 
-<a name="create-csr-file" class="anchor" href="#create-csr-file"></a><h3>Create CSR file</h3>
+<h3>Create CSR file</h3>
 
 <p>Launch the application 'Keychain Access' in /Applications/Utilities</p>
 
@@ -137,7 +136,7 @@
 
 <p>Click 'continue' and save the CSR file somewhere handy.</p>
 
-<a name="prepare-the-developer-account" class="anchor" href="#prepare-the-developer-account"></a><h1>Prepare the Developer Account</h1>
+<h1>Prepare the Developer Account</h1>
 
 <p>Navigate to the iOS Provisioning Portal by clicking the link on the right hand side:</p>
 
@@ -147,7 +146,7 @@
 
 <p>If the 3rd party developer was added as an administrator, skip next 2 sections, go to <a href="#create-distribution-certificate">Create Distribution Certificate</a></p>
 
-<a name="create-app-id" class="anchor" href="#create-app-id"></a><h3>Create App ID</h3>
+<h3>Create App ID</h3>
 
 <p><strong>(ONLY NEEDED DEVELOPER ADDED AS NON-ADMIN)</strong></p>
 
@@ -163,7 +162,7 @@
 
 <p><img src="https://github.com/evertrue/apple-team-member-doc/blob/master/pageimages/appids_3.png?raw=true" alt="" title="AppIds"></p>
 
-<a name="create-push-notification-certificate" class="anchor" href="#create-push-notification-certificate"></a><h3>Create push notification certificate</h3>
+<h3>Create push notification certificate</h3>
 
 <p><strong>(ONLY NEEDED DEVELOPER ADDED AS NON-ADMIN)</strong></p>
 
@@ -183,7 +182,7 @@
 
 <p>Make sure to export it as a .p12 file. Send this file to your developer.</p>
 
-<a name="create-distribution-certificate"></a><h3>Create Distribution Certificate</h3>
+<h3>Create Distribution Certificate</h3>
 
 <p>In order to submit an application, a distribution certificate needs to be created.  This certificate needs to be created by the person doing the submission to the app store or the signing won't work correctly.  The team agent is the only team member with access to iTunes Connect, so the team agent needs to be the one that creates the distribution certificate.</p>
 
@@ -197,7 +196,7 @@
 
 <p>It will ask you for a CSR file, you can use the same one you created earlier.  After it is created, it will be 'Pending' for a second.  Refresh the page until it gives you a 'Download' button.  Click to download the certificate, and double-click it to load into your keychain.</p>
 
-<a name="create-provisioning-profile"></a><h3>Create Provisioning Profile</h3>
+<h3>Create Provisioning Profile</h3>
 
 <p>Back in the provisioning portal, navigate to the Provisioning section by clicking the link in the left side.</p>
 
@@ -213,17 +212,17 @@
 
 <p><img src="https://github.com/evertrue/apple-team-member-doc/blob/master/pageimages/prov_3.png?raw=true" alt="" title="Prov"></p>
 
-<a name="prepare-itunes-connect"></a><h1>Prepare iTunes Connect</h1>
+<h1>Prepare iTunes Connect</h1>
 
-<a name="create-new-application"></a><h3>Create new application</h3>
+<h3>Create new application</h3>
 
 <p>Log in to iTunes Connect (itunesconnect.apple.com).  The developer will provide you with the information you need to enter, as shown in the following video.</p>
 
 <p><a href="https://dl.dropbox.com/u/2836123/DEMOVIDEO_iTunesConnect_AppSetup.mp4">https://dl.dropbox.com/u/2836123/DEMOVIDEO_iTunesConnect_AppSetup.mp4</a></p>
 
-<a name="publish-the-application"></a><h1>Publish The Application</h1>
+<h1>Publish The Application</h1>
 
-<a name="import-the-.xarchive"></a><h3>Import the .xarchive</h3>
+<h3>Import the .xarchive</h3>
 
 <p>After your application is built, the developer will send an .xarchive file.  Double click the .xarchive file to load it into the XCode organizer.</p>
 
