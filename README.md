@@ -155,6 +155,10 @@ It may take a second for the profile to be created, refresh the page until it gi
 
 Log in to iTunes Connect (itunesconnect.apple.com).  The developer will provide you with the information you need to enter, as shown in the following video.
 
+<video width="560" height="340" controls>
+  <source src="https://dl.dropbox.com/u/2836123/DEMOVIDEO_iTunesConnect_AppSetup.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+</video>
+
 https://dl.dropbox.com/u/2836123/DEMOVIDEO_iTunesConnect_AppSetup.mp4
 
 # <a name="publish-the-application"></a>6. Publish The Application
