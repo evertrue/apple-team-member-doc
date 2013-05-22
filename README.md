@@ -88,15 +88,16 @@ If the 3rd party developer was added as an administrator, skip next 2 sections, 
 
 Navigate to the App Ids section by clicking the link in the left side:
 
-![](https://github.com/evertrue/apple-team-member-doc/blob/master/pageimages/appids_1.png?raw=true "AppIds")
+![](https://raw.github.com/evertrue/apple-team-member-doc/new-dev-center/pageimages/app_id_1.png "AppIds")
 
 Click the 'New App Id' button.
 
-![](https://github.com/evertrue/apple-team-member-doc/blob/master/pageimages/appids_2.png?raw=true "AppIds")
+![](https://raw.github.com/evertrue/apple-team-member-doc/new-dev-center/pageimages/app_id_2.png "AppIds")
 
 For the description, enter something that clearly indentifies this application.   You will choose this from a list later, so don't make it to generic.  Leave the Seed Id as 'Use Team Id'.  **The bundle id should be provided to you by the developer**.
 
-![](https://github.com/evertrue/apple-team-member-doc/blob/master/pageimages/appids_3.png?raw=true "AppIds")
+![](https://raw.github.com/evertrue/apple-team-member-doc/new-dev-center/pageimages/app_id_3.png "AppIds")
+![](https://raw.github.com/evertrue/apple-team-member-doc/new-dev-center/pageimages/app_id_4.png "AppIds")
 
 ### <a name="create-push-notification-certificate"></a>4.2 Create push notification certificate
 
