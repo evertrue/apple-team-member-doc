@@ -126,16 +126,13 @@ Make sure to export it as a .p12 file. Send this file to your developer.
 
 In order to submit an application, a distribution certificate needs to be created.  This certificate needs to be created by the person doing the submission to the app store or the signing won't work correctly.  The team agent is the only team member with access to iTunes Connect, so the team agent needs to be the one that creates the distribution certificate.
 
-Navigate to the Certificates section by clicking the link in the left side.
+On the main page of the portal, under 'Certificates', choose 'Distribution'
 
-![](https://github.com/evertrue/apple-team-member-doc/blob/master/pageimages/cert_1.png?raw=true "Certs")
+![](https://raw.github.com/evertrue/apple-team-member-doc/new-dev-center/pageimages/distro_cert_1.png "AppIds")
 
-Click the 'Distribution' tab, and then click the 'Request Certificate' button.
+On the following page, make sure 'App Store and Ad Hoc' is selected as the type of certificate.
 
-![](https://github.com/evertrue/apple-team-member-doc/blob/master/pageimages/cert_2.png?raw=true "Certs")
-
-It will ask you for a CSR file, you can use the same one you created earlier.  After it is created, it will be 'Pending' for a second.  Refresh the page until it gives you a 'Download' button.  Click to download the certificate, and double-click it to load into your keychain.
-
+![](https://raw.github.com/evertrue/apple-team-member-doc/new-dev-center/pageimages/distro_cert_2.png "AppIds")
 
 ### <a name="create-provisioning-profile"></a>4.4 Create Provisioning Profile
 
