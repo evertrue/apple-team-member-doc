@@ -76,7 +76,7 @@ Click 'continue' and save the CSR file somewhere handy.
 
 Navigate to the iOS Provisioning Portal by clicking the link on the right hand side:
 
-![](https://github.com/evertrue/apple-team-member-doc/blob/master/pageimages/provportal_1.png?raw=true "Portal")
+![](https://github.com/evertrue/apple-team-member-doc/blob/master/pageimages/certs_ids_profiles.png?raw=true "Portal")
 
 Here is where you will setup the developer account.
 
