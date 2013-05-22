@@ -99,17 +99,20 @@ For the description, enter something that clearly indentifies this application. 
 ![](https://raw.github.com/evertrue/apple-team-member-doc/new-dev-center/pageimages/app_id_3.png "AppIds")
 ![](https://raw.github.com/evertrue/apple-team-member-doc/new-dev-center/pageimages/app_id_4.png "AppIds")
 
+Click 'Continue' and confirm the settings on the following page.
+
+![](https://raw.github.com/evertrue/apple-team-member-doc/new-dev-center/pageimages/app_id_5.png "AppIds")
 ### <a name="create-push-notification-certificate"></a>4.2 Create push notification certificate
 
 **(ONLY NEEDED DEVELOPER ADDED AS NON-ADMIN)**
 
-After creating the app id, scroll down the page to the section with the newly created app id, and click ‘configure’.
+After creating the app id, you will be redirected back to the list of app ids. Click on the list item corresponding to the newly created app id, and click 'Settings'. scroll down the page to the section with the newly created app id, and click ‘configure’.
 
-![](https://github.com/evertrue/apple-team-member-doc/blob/master/pageimages/appids_4.png?raw=true "AppIds")
+![](https://raw.github.com/evertrue/apple-team-member-doc/new-dev-center/pageimages/push_settings_1.png "AppIds")
 
-Then, click the checkbox next to ‘Enable for Apple Push Notification service’, and click the ‘Configure’ button next to 'Production Push SSL Certificate'. 
+Scroll down to 'Push Notifications' and click 'Create Certificate...' 
 
-![](https://github.com/evertrue/apple-team-member-doc/blob/master/pageimages/appids_5.png?raw=true "AppIds")
+![](https://raw.github.com/evertrue/apple-team-member-doc/new-dev-center/pageimages/push_settings_2.png "AppIds")
 
 Follow the instructions for creating a push notification certificate. This involves uploading a certificate signing request file, which was created above. Once the push certificate is created, download it and double click it to load it into the keychain. Keychain Access should automatically open.
 
