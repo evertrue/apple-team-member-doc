@@ -90,7 +90,7 @@ Navigate to the App Ids section by clicking the link in the left side:
 
 ![](https://raw.github.com/evertrue/apple-team-member-doc/new-dev-center/pageimages/app_id_1.png "AppIds")
 
-Click the 'New App Id' button.
+Click the '+' button.
 
 ![](https://raw.github.com/evertrue/apple-team-member-doc/new-dev-center/pageimages/app_id_2.png "AppIds")
 
