@@ -76,7 +76,7 @@ Click 'continue' and save the CSR file somewhere handy.
 
 Navigate to the iOS Provisioning Portal by clicking the link on the right hand side:
 
-![](https://raw.github.com/evertrue/apple-team-member-doc/new-dev-center/pageimages/certs_ids_profiles.png "Portal")
+![](https://raw.github.com/evertrue/apple-team-member-doc/master/pageimages/certs_ids_profiles.png "Portal")
 
 Here is where you will setup the developer account.
 
@@ -88,31 +88,31 @@ If the 3rd party developer was added as an administrator, skip next 2 sections, 
 
 Navigate to the App Ids section by clicking the link in the left side:
 
-![](https://raw.github.com/evertrue/apple-team-member-doc/new-dev-center/pageimages/app_id_1.png "AppIds")
+![](https://raw.github.com/evertrue/apple-team-member-doc/master/pageimages/app_id_1.png "AppIds")
 
 Click the '+' button.
 
-![](https://raw.github.com/evertrue/apple-team-member-doc/new-dev-center/pageimages/app_id_2.png "AppIds")
+![](https://raw.github.com/evertrue/apple-team-member-doc/master/pageimages/app_id_2.png "AppIds")
 
 For the description, enter something that clearly indentifies this application.   You will choose this from a list later, so don't make it to generic.  Leave the Seed Id as 'Use Team Id'.  **The bundle id should be provided to you by the developer**.
 
-![](https://raw.github.com/evertrue/apple-team-member-doc/new-dev-center/pageimages/app_id_3.png "AppIds")
-![](https://raw.github.com/evertrue/apple-team-member-doc/new-dev-center/pageimages/app_id_4.png "AppIds")
+![](https://raw.github.com/evertrue/apple-team-member-doc/master/pageimages/app_id_3.png "AppIds")
+![](https://raw.github.com/evertrue/apple-team-member-doc/master/pageimages/app_id_4.png "AppIds")
 
 Click 'Continue' and confirm the settings on the following page.
 
-![](https://raw.github.com/evertrue/apple-team-member-doc/new-dev-center/pageimages/app_id_5.png "AppIds")
+![](https://raw.github.com/evertrue/apple-team-member-doc/master/pageimages/app_id_5.png "AppIds")
 ### <a name="create-push-notification-certificate"></a>4.2 Create push notification certificate
 
 **(ONLY NEEDED DEVELOPER ADDED AS NON-ADMIN)**
 
 After creating the app id, you will be redirected back to the list of app ids. Click on the list item corresponding to the newly created app id, and click 'Settings'. scroll down the page to the section with the newly created app id, and click ‘configure’.
 
-![](https://raw.github.com/evertrue/apple-team-member-doc/new-dev-center/pageimages/push_settings_1.png "AppIds")
+![](https://raw.github.com/evertrue/apple-team-member-doc/master/pageimages/push_settings_1.png "AppIds")
 
 Scroll down to 'Push Notifications' and click 'Create Certificate...' 
 
-![](https://raw.github.com/evertrue/apple-team-member-doc/new-dev-center/pageimages/push_settings_2.png "AppIds")
+![](https://raw.github.com/evertrue/apple-team-member-doc/master/pageimages/push_settings_2.png "AppIds")
 
 Follow the instructions for creating a push notification certificate. This involves uploading a certificate signing request file, which was created above. Once the push certificate is created, download it and double click it to load it into the keychain. Keychain Access should automatically open.
 
@@ -128,11 +128,11 @@ In order to submit an application, a distribution certificate needs to be create
 
 On the main page of the portal, under 'Certificates', choose 'Distribution'
 
-![](https://raw.github.com/evertrue/apple-team-member-doc/new-dev-center/pageimages/distro_cert_1.png "AppIds")
+![](https://raw.github.com/evertrue/apple-team-member-doc/master/pageimages/distro_cert_1.png "AppIds")
 
 On the following page, make sure 'App Store and Ad Hoc' is selected as the type of certificate.
 
-![](https://raw.github.com/evertrue/apple-team-member-doc/new-dev-center/pageimages/distro_cert_2.png "AppIds")
+![](https://raw.github.com/evertrue/apple-team-member-doc/master/pageimages/distro_cert_2.png "AppIds")
 
 Follow the instructions to upload the certificate signing request created earlier. Once the certificate is created, download it and double click it to load it into the keychain. (This process is very similar to creating the Push Certificate above.)
 
@@ -140,15 +140,15 @@ Follow the instructions to upload the certificate signing request created earlie
 
 Back in the provisioning portal, navigate to the Distribution Provisioning section by clicking the link in the left side.
 
-![](https://raw.github.com/evertrue/apple-team-member-doc/new-dev-center/pageimages/prov_portal_1.png "AppIds")
+![](https://raw.github.com/evertrue/apple-team-member-doc/master/pageimages/prov_portal_1.png "AppIds")
 
 Click on the '+' button in the top right corner to add a new Provisioning Profile
 
-![](https://raw.github.com/evertrue/apple-team-member-doc/new-dev-center/pageimages/prov_portal_2.png "AppIds")
+![](https://raw.github.com/evertrue/apple-team-member-doc/master/pageimages/prov_portal_2.png "AppIds")
 
 Choose ‘App Store’ as the type.
 
-![](https://raw.github.com/evertrue/apple-team-member-doc/new-dev-center/pageimages/prov_portal_3.png "AppIds")
+![](https://raw.github.com/evertrue/apple-team-member-doc/master/pageimages/prov_portal_3.png "AppIds")
 
 Follow the instructions to create the profile. Choose the application ID you created in the beginning and then select the certificate you created above. Give your profile a name, and finally, download the newly created profile. Double click the profile to load it into the Xcode Organizer. You will know if the process worked if you have a green checkmark in the status next to the profile.
 
