@@ -134,19 +134,23 @@ On the following page, make sure 'App Store and Ad Hoc' is selected as the type 
 
 ![](https://raw.github.com/evertrue/apple-team-member-doc/new-dev-center/pageimages/distro_cert_2.png "AppIds")
 
+Follow the instructions to upload the certificate signing request created earlier. Once the certificate is created, download it and double click it to load it into the keychain. (This process is very similar to creating the Push Certificate above.)
+
 ### <a name="create-provisioning-profile"></a>4.4 Create Provisioning Profile
 
-Back in the provisioning portal, navigate to the Provisioning section by clicking the link in the left side.
+Back in the provisioning portal, navigate to the Distribution Provisioning section by clicking the link in the left side.
 
-![](https://github.com/evertrue/apple-team-member-doc/blob/master/pageimages/prov_1.png?raw=true "Prov")
+![](https://raw.github.com/evertrue/apple-team-member-doc/new-dev-center/pageimages/prov_portal_1.png "AppIds")
 
-Click the 'Distribution' tab, and then click the 'New Profile' button.
+Click on the '+' button in the top right corner to add a new Provisioning Profile
 
-![](https://github.com/evertrue/apple-team-member-doc/blob/master/pageimages/prov_2.png?raw=true "Prov")
+![](https://raw.github.com/evertrue/apple-team-member-doc/new-dev-center/pageimages/prov_portal_2.png "AppIds")
 
-Choose ‘App Store’ as the type. Give the profile a name. Choose the distribution certificate you created above.  (There should be only one) Under ‘App ID’, choose the application id that was created above (or provided by your developer).
+Choose ‘App Store’ as the type.
 
-It may take a second for the profile to be created, refresh the page until it gives you a download button.  Download the profile and double click it to load it into the XCode Organizer.  You will know the process worked if you have a green checkmark in the status next to the profile.
+![](https://raw.github.com/evertrue/apple-team-member-doc/new-dev-center/pageimages/prov_portal_3.png "AppIds")
+
+Follow the instructions to create the profile. Choose the application ID you created in the beginning and then select the certificate you created above. Give your profile a name, and finally, download the newly created profile. Double click the profile to load it into the Xcode Organizer. You will know if the process worked if you have a green checkmark in the status next to the profile.
 
 ![](https://github.com/evertrue/apple-team-member-doc/blob/master/pageimages/prov_3.png?raw=true "Prov")
 
